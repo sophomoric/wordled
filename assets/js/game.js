@@ -377,7 +377,7 @@ function gameStart(){
 	container.innerHTML = '';
 	let wordType = (level == 'beginner')? beginner : ((level == 'intermediate')? intermediate : ((level == 'advanced')? advanced : ((level == 'godmode')? fullList : custom)));
 	let rand = Math.floor(Math.random() * wordType.length);
-	chosenWord = wordType[rand].toUpperCase();
+	chosenWord = 'porch';
 
 	addLogo();
 
